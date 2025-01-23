@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+<link rel="stylesheet" href="assests/css/login.css">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +9,6 @@
 </head>
 <body>
 
-    <img src="/assests/media/login images/3030708.webp" alt="not seen">
+    <img src="assests/media/login images/login image.jpg" alt="" class="login_image">
 </body>
 </html>
