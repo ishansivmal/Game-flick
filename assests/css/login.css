@@ -1,9 +1,37 @@
-.login_image{
-
+body {
+    background: url('../media/image/login image.jpg') center/cover no-repeat;
+    
+    
     width: 100%;
     height: 1000px;
-  
+    animation: zoomInOut 10s infinite alternate ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    ;
+}
 
 
-   
+@keyframes zoomInOut {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 110%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+.main {
+    width: 600px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.3); /* Adjusted opacity */
+    backdrop-filter: blur(6px); /* Adjust the blur intensity */
+    margin-top: 10px;
+    margin: auto;
+    
 }
