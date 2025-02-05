@@ -28,10 +28,170 @@ body {
 
 .main {
     width: 600px;
-    height: 600px;
-    background-color: rgba(255, 255, 255, 0.3); /* Adjusted opacity */
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.1); /* Adjusted opacity */
     backdrop-filter: blur(6px); /* Adjust the blur intensity */
     margin-top: 10px;
     margin: auto;
+    border-radius: 50px;
     
+}
+
+.login-details{
+
+    display:flex;
+    flex-direction:column;
+    margin-top: 60px;
+
+  
+
+    padding: 20px;
+    margin-bottom: 50PX;
+}
+
+.username,.password{
+
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+
+    border-radius: 10px;
+    width: 400px;
+    height: 20px;
+}
+
+.sigin{
+
+    font-size:30px;
+
+    filter: drop-shadow(1px 1px 20px black);
+
+
+}
+
+
+
+/* From Uiverse.io by cssbuttons-io */
+.login-button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #3ee6f1);
+    border: 0;
+    border-radius: 50px; /* Changed to match .login-button style */
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 60px; /* Added margin-top from .login-button */
+    width: 200px; /* Added width from .login-button */
+    height: 45px; /* Added height from .login-button */
+    margin: auto; /* Added margin from .login-button */
+  }
+  
+  .login-button:active,
+  .login-button:hover {
+    outline: 0;
+  }
+  
+  .login-button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .login-button:hover span {
+    background: none;
+  }
+  
+  .login-button:active {
+    transform: scale(0.9);
+  }
+
+  .remember-me{
+
+    width: 100px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.remember-me{
+
+    width: 200px;
+    height: 20px;
+  
+  margin: auto;
+font-size: 20px;
+margin-bottom: 20px;
+margin-left: -10px;
+cursor: pointer;
+font-weight: bold;
+}
+
+.remember-and-froget-password{
+
+
+    display: flex;
+  
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+.froget-password{
+
+   
+    font-size: 12px;
+}
+
+.no-acc{
+
+    margin-top: 10px;
+    
+    margin-top: 50px;
+
+    font-size: 20px;
+
+
+
+}
+h1{
+
+    color: black;;
+}
+
+p{
+    color: black;
 }
